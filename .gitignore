@@ -1,0 +1,23 @@
+# Secrets — NEVER commit
+.env
+
+# Node
+node_modules/
+
+# Runtime data
+Beige_Data/
+beige_cam/
+
+# Logs
+*.log
+beige_boot.log
+beige_crash.log
+nohup.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

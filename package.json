@@ -1,0 +1,26 @@
+{
+  "name": "beige-nihilist-v1",
+  "version": "1.0.0",
+  "description": "Beige_nihilist — Spackle's troll nemesis, StumbleChat bot, MumbleChat bot family",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["ai", "chat", "stumblechat", "bot", "troll", "deathaius"],
+  "author": "Death (DBounceBoom)",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "chromadb": "^1.9.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "pg": "^8.21.0",
+    "puppeteer": "^24.22.3",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
